@@ -1,5 +1,5 @@
 #!groovy
-@Library('hipstershop-shared-library') _
+@Library('jenkins-shared-library') _
 
 def configMap = [ // variable creation
     application: "goEKS", // jenkins-shared-library goEKS name
